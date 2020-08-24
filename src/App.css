@@ -1,0 +1,49 @@
+.App {
+   background-color: #2676bf;
+}
+
+
+#form{
+  flex-flow: row wrap;
+  margin-top: 1vh;
+  width: 100vw;
+  text-align: center;
+  display: inline-block;
+  border: 0px solid black;
+  
+}
+
+
+.searchBttn {
+    border: 1px solid #fff;
+    background: #2c7cc2;
+    padding: 25px;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    width: 5vw;
+}
+
+.input{
+  border: 1px solid #fff;
+    background: #2c7cc2;
+    padding: 25px;
+    color: #fff;
+    border-radius:  10px 0 0 10px ;
+    width: 60vw;
+}
+
+.card {
+  margin: 5px;
+  width: 250px;
+  height: 300px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card > .card-body {
+  height: 100%;
+  overflow: auto;
+}
